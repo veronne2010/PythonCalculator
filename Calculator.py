@@ -40,54 +40,22 @@ while True:
             a = float(input("Inserisci il primo numero: "))
             b = float(input("Inserisci il secondo numero: "))
             print("Il risultato è: ", str(a + b))
-            new_action1 = input("Vuoi continuare?")
-            if new_action1 == "S" or new_action == "s":
-                print("Sto tornando al menù principale!\n")
-                continue
-                print("Select the language with the previous list")
-            else:
-                print("A presto!\n")
-                break
         elif operationi == "2":
             print("\nHai selezionato la sottrazione\n")
             a = float(input("Inserisci il primo numero: "))
             b = float(input("Inserisci il secondo numero: "))
             print("Il risultato è: ", str(a - b))
             new_action1 = input("Vuoi continuare?")
-            if new_action1 == "S" or new_action == "s":
-                print("Sto tornando al menù principale!\n")
-                continue
-                print("Select the language with the previous list")
-            else:
-                print("A presto!\n")
-                break
         elif operationi == "3":
             print("\nHai selezionato la Moltiplicazione\n")
             a = float(input("Inserisci il primo numero: "))
             b = float(input("Inserisci il primo numero: "))
             print("Il risultato è: ", str(a * b))
-            new_action1 = input("Vuoi continuare?")
-            if new_action1 == "S" or new_action == "s":
-                print("Sto tornando al menù principale!\n")
-                continue
-                print("Select the language with the previous list")
-            else:
-                print("A presto!\n")
-                break
         elif operationi == "4":
             print("\nHai selezionato la Divisione\n")
             a = float(input("Inserisci il primo numero: "))
-            b = float(input("Inserisci il primo numero: "))
+            b = float(input("Inserisci il secondo numero: "))
             print("Il risultato è: ", str(a / b))
-
-            new_action1 = input("Vuoi continuare?")
-            if new_action1 == "S" or new_action == "s":
-                print("Sto tornando al menù principale!\n")
-                continue
-                print("Select the language with the previous list")
-            else:
-                print("A presto!\n")
-                break
     elif action == "2":
         print(EN)
         print(m2b)
@@ -98,49 +66,20 @@ while True:
             a = float(input("Enter the first number: "))
             b = float(input("Enter the second number: "))
             print("The result of addition is: ", str(a + b))
-            new_action = input("\nDo you want to continue using the application? (Y/N) ")
-            if new_action == "Y" or new_action == "y":
-                print("Returning to the main menu!\n")
-                continue
-            else:
-                print("Goodbye!\n")
-                break
         elif operation == "2":
             print("\nYou have chosen Subtraction\n")
             a = float(input("Enter the first number: "))
             b = float(input("Enter the second number: "))
             print("The result of Subtraction is: ", str(a - b))
-            new_action = input("\nDo you want to continue using the application? (Y/N) ")
-            if new_action == "Y" or new_action == "y":
-                print("Returning to the main menu!\n")
-                continue
-            else:
-                print("Goodbye!\n")
-                break
         elif operation == "3":
             print("\nYou have chosen Multiplication\n")
             a = float(input("Enter the first number: "))
             b = float(input("Enter the second number: "))
             print("The result of multiplication is: ", str(a * b))
-            new_action = input("\nDo you want to continue using the application? (Y/N) ")
-            if new_action == "Y" or new_action == "y":
-                print("Returning to the main menu!\n")
-                continue
-            else:
-                print("Goodbye!\n")
-                break
         elif operation == "4":
             print("\nYou have chosen Division\n")
             a = float(input("Enter the first number: "))
             b = float(input("Enter the second number: "))
             print("The result of Division is: ", str(a / b))
-
-            new_action = input("\nDo you want to continue using the application? (Y/N) ")
-            if new_action == "Y" or new_action == "y":
-                print("Returning to the main menu!\n")
-                continue
-            else:
-                print("Goodbye!\n")
-                break
     elif action == "3":
         print(FR)
